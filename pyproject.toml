@@ -3,6 +3,9 @@ name = "fleetflow"
 version = "0.1.0"
 description = "Connected EV telemetry and predictive health lakehouse portfolio project"
 requires-python = ">=3.13"
+dependencies = [
+    "pandas"
+]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
