@@ -4,6 +4,7 @@
 # Python cache files
 __pycache__/
 *.pyc
+*.egg-info/
 
 # Environment variables and secrets
 .env
